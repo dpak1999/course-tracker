@@ -1,7 +1,16 @@
 import React, { useState, useEffect } from "react";
 
 export default function Tags({ tagsUpdated, key }) {
-  const tagChoices = ["node", "javascript", "react", "jamstack"];
+  const tagChoices = [
+    "node",
+    "javascript",
+    "react",
+    "udemy",
+    "oreilly",
+    "youtube",
+    "project",
+    "local",
+  ];
   const [selectedTags, setSelectedTags] = useState([]);
 
   useEffect(() => {
